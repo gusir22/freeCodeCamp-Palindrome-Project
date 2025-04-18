@@ -5,7 +5,7 @@ Git repository for Gustavo Rivero - Friday April 17, 2025 @ 8:05 PM
 [freeCodeCamp Project Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-palindrome-checker-project/build-a-palindrome-checker)
 
 > [!NOTE]
-> When testing my work on the freeCodeCamp project validator, ensure to change the CSS href attribute to "style.css" and the JS src attribute to "script.js" to match the expected path by freeCodeCamp. I prefer this directory structure for better file management in my projects but it is not compatible with the project validations if you do not change those values in the index.html file.
+> When testing my work on the freeCodeCamp project validator, ensure to change the CSS href attribute to "styles.css" and the JS src attribute to "script.js" to match the expected path by freeCodeCamp. I prefer this directory structure for better file management in my projects but it is not compatible with the project validations if you do not change those values in the index.html file.
 
 
 
