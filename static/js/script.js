@@ -10,6 +10,20 @@ function validateInput(form){
     
 }
 
+function reverseStr(str) {
+    /* This function reverses strings by turning them into arrays, reversing them, and re-joining
+    them into a string again before returning the end result */
+    
+    return str.split('').reverse().join('');
+}
+
 function checkForPalindrome(phrase) {
-    console.log(phrase);
+
+    // change phrase to lower case and replace all non-alphanumeric chars with nothing
+    phrase = phrase.toLowerCase().replaceAll(/[^a-z0-9]/g,"");
+    mirror = reverseStr(phrase); // create mirror to compare phrase to
+
+
+    console.log(`Phrase: ${phrase}`);
+    console.log(`Mirror: ${mirror}`);
 }
